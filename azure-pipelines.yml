@@ -2,7 +2,7 @@ trigger:
 - master
 
 pool:
-  vmImage: 'alpine'
+  vmImage: 'ubntu-latest'
 stages:
 - stage: Build
   jobs:
